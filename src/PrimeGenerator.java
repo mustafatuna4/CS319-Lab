@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 public class PrimeGenerator {
     private boolean prime[];
     private final int soeLimit = 1000000;
@@ -26,6 +27,7 @@ public class PrimeGenerator {
             if (number % i == 0)
                 return false;
         }
+
         return true;
     }
 
@@ -37,10 +39,6 @@ public class PrimeGenerator {
         }
         return primes;
     }
-
-
-
-
 }
 
 
